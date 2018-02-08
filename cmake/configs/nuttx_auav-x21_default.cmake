@@ -21,8 +21,8 @@ set(config_module_list
 	drivers/px4io
 	drivers/boards
 	drivers/rgbled
-	drivers/mpu6000
-	drivers/mpu9250
+	drivers/imu/mpu6000
+	drivers/imu/mpu9250
 	drivers/gps
 	drivers/pwm_out_sim
 	drivers/hott
