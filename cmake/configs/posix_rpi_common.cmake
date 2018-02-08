@@ -20,6 +20,7 @@ set(config_module_list
 	drivers/distance_sensor
 	#drivers/barometer
 	drivers/differential_pressure
+	#drivers/telemetry
 
 	modules/sensors
 	platforms/posix/drivers/df_mpu9250_wrapper

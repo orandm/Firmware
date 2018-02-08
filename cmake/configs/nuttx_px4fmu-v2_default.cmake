@@ -10,6 +10,7 @@ set(config_module_list
 	drivers/differential_pressure
 	drivers/distance_sensor
 	#drivers/magnetometer
+	#drivers/telemetry
 
 	#drivers/imu/adis16448
 	drivers/airspeed

@@ -11,6 +11,7 @@ set(config_module_list
 	drivers/differential_pressure
 	drivers/distance_sensor
 	drivers/magnetometer
+	drivers/telemetry
 
 	drivers/device
 	drivers/stm32
@@ -25,10 +26,8 @@ set(config_module_list
 	drivers/imu/mpu9250
 	drivers/gps
 	drivers/pwm_out_sim
-	drivers/hott
 	drivers/blinkm
 	drivers/airspeed
-	drivers/frsky_telemetry
 	modules/sensors
 	drivers/mkblctrl
 	drivers/px4flow
@@ -36,7 +35,6 @@ set(config_module_list
 	drivers/vmount
 	drivers/pwm_input
 	drivers/camera_trigger
-	drivers/bst
 
 	#
 	# System commands

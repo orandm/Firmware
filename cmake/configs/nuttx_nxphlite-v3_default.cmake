@@ -11,21 +11,18 @@ set(config_module_list
 	drivers/differential_pressure
 	drivers/distance_sensor
 	drivers/magnetometer
+	drivers/telemetry
 
 	drivers/airspeed
 	drivers/blinkm
 #NOT Supported	drivers/imu/bma180
 #NOT Supported	drivers/imu/bmi160
 	drivers/boards
-	drivers/bst
 	drivers/camera_trigger
 	drivers/device
-	drivers/frsky_telemetry
 	drivers/imu/fxos8701cq
 	drivers/imu/fxas21002c
 	drivers/gps
-	drivers/hott
-	drivers/iridiumsbd
 	drivers/kinetis
 	drivers/kinetis/adc
 	drivers/kinetis/tone_alarm
